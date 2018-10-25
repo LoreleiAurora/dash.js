@@ -1478,7 +1478,7 @@ function ProtectionController(config) {
             }
         }
         // Possibly update or override the URL based on the message
-        url = licenseServerData.getServerURLFromMessage(url, message, messageType);
+        //url = licenseServerData.getServerURLFromMessage(url, message, messageType);
 
         // Ensure valid license server URL
         if (!url) {
